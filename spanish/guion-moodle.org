@@ -1,0 +1,203 @@
+#+TITLE: Guión de la parte de Moodle
+NOTA: este guión no está al día. Es mejor basarse en los ejercicios de
+=ejercicios-wikiMoodle.odt=.
+* Preliminares
+** ¿Cómo están hechos los wikis en Moodle?
+   El software instalado en Moodle 1.9 en la UCA está basado en
+   [[http://erfurtwiki.sourceforge.net/][ErfurtWiki]], un wiki sencillo y ligero. En Moodle 2.0 se ha
+   reescrito el módulo, pero el uso es muy similar.
+** ¿Cómo se crea un wiki?
+   Para crear un wiki, debemos seguir estos pasos:
+
+   1. Activar el modo de edición.
+   2. Ir al tema en cuestión y utilizar "Agregar actividad" > "Wiki".
+   3. Rellenar por lo menos el nombre del wiki y la
+      descripción. Algunos campos interesantes del formulario son:
+      - Tipo y modo de grupo: según su combinación, el uso final del
+        wiki cambiará mucho. Hay una página en el CV que describe las
+        combinaciones en Moodle 1.9 y Moodle 2.0+: con dejar eso como
+        referencia bastará. Las opciones por omisión nos valen: es un
+        wiki tradicional, editable y visible por todos los miembros
+        del curso por igual.
+      - Modo HTML:
+        - "No HTML" obliga a utilizar marcado wiki. El editor es un
+          campo de texto normal.
+        - "HTML seguro" permite usar marcado HTML además del de wiki,
+          pero sólo un subconjunto seguro. El editor es el mismo de
+          antes.
+        - "Sólo HTML" desactiva el marcado wiki: sólo se puede
+          utilizar HTML seguro con el editor visual de Moodle
+          ([[http://www.tinymce.com/][TinyMCE]]).
+      - Permitir archivos binarios: ¿se pueden adjuntar ficheros al
+        wiki? Eso permitirá a los alumnos añadir fotos sin tener
+        acceso a los ficheros internos del curso.
+      - Nombre de la página: nombre de la página principal del wiki,
+        si no nos vale con el nombre de la actividad.
+      - Contenido Wiki inicial (avanzado): el wiki se puede crear a
+        partir de una serie de ficheros de texto, subidos a un
+        directorio de los archivos del curso.
+      - Agrupamiento (avanzado): si se han activado los grupos,
+        permite controlar qué conjunto de grupos (agrupamiento)
+        utilizar, si se ha definido alguno.
+
+   NOTA: la parte de calificaciones no sirve para nada. Moodle no
+   permite asignar calificaciones a los artículos de un wiki: hay que
+   establecer entradas en la sección de Calificaciones de
+   "Administración" manualmente.
+
+   Enseñaré la interfaz para crear un wiki, pero usaremos el "Wiki de
+   prueba" que ya está en el Campus Virtual. Hay que mencionar que
+   normalmente los wikis son proyectos a nivel de asignatura completa,
+   por lo que suelen ir en el tema 0, por así decirlo, más que en un
+   tema concreto.
+* Uso general
+** Creación de contenido (ejercicios 1 - 8)
+   Hay que enseñar a entrar en el wiki y ver qué particularidades hay:
+   por un lado, hay una caja de búsqueda y un desplegable que permite
+   acceder a diversos informes útiles (se usarán en ejercicios
+   posteriores). El círculo con "?" muestra un artículo detallando la
+   sintaxis especial disponible para wikis (aunque la mayoría de las
+   cosas no hacen falta).
+
+   Más abajo se muestra el artículo actual. La información está
+   dividida en cuatro pestañas: "Ver" para leer su contenido, "Edición"
+   para editarlo con el editor visual (como hemos puesto "Sólo HTML" no
+   hay que enseñar todo el marcado), "Enlaces" para ver qué artículos
+   enlazan a éste, e "Historial" para ver todos los cambios que se han
+   hecho desde que se creó.
+
+   Para hacer el ejercicio 1 tienen que saber que han de pulsar en el
+   enlace "?" que está al lado de su proyecto, indicando que la página
+   no existe. Como la página no existe, Moodle les pedirá crear su
+   primera versión: sólo tienen que pegar el texto que tengan en su
+   proyecto y darle a "Guardar".
+
+   Para el ejercicio 2 basta con que usen el editor visual de la forma
+   habitual.
+
+   El ejercicio 3 exige que sepan cómo crear enlaces entre páginas del
+   wiki. La sintaxis en Moodle 1.9 para un enlace a otra página del
+   mismo wiki es [Nombre página], y en Moodle 2.0+ es igual pero con
+   dos corchetes en vez de uno (para parecerse más a MediaWiki). Es lo
+   único que no se puede hacer con el editor visual, curiosamente.
+
+   El ejercicio 4 se puede hacer con el editor HTML de Moodle. Basta
+   con escribir un texto, seleccionarlo, usar el botón con una cadena,
+   introducir la URL y pulsar en OK.
+
+   El ejercicio 5 utiliza también el editor HTML de Moodle. El primer
+   paso es especificar la dirección de la foto: lo más normal es que
+   tengan que subirla a los archivos del curso y luego la
+   seleccionen. Otra opción es hacer una búsqueda en Google y coger la
+   dirección de la imagen directamente, pero entonces puede que empiece
+   a fallar la imagen de repente en algún momento. Con la URL puesta,
+   hay que escribir el texto alternativo, por si la imagen no carga o
+   si el usuario necesita la explicación adicional (p. ej. por ser
+   ciego o tener problemas de vista).
+
+   El ejercicio 6 es como el 3, pero el destino es una página de otro
+   grupo. La idea es que vean lo fácil que es colaborar simplemente
+   creando enlaces a las cosas de los otros grupos.
+
+   Los ejercicios 7 y 8 ya se podrían hacer sin más explicaciones.
+** Conflictos (ejercicio 9)
+   En Moodle, cada vez que un usuario se pone a editar una página "echa
+   el cerrojo" sobre ella, impidiendo que cualquier otro usuario la
+   edite y que se pueda perder el trabajo del primer usuario.
+
+   Para crear un conflicto entre usuarios, basta con que alguien
+   intente editar una página en la que ya hay alguien editando. Para
+   resolver el problema, la persona que está editando deberá guardar
+   sus cambios y dejar la página, para que se libere el cerrojo.
+
+   Hay que mencionar que existe el caso en que un cerrojo no se libere
+   bien, en el caso en que no salga de la página del wiki
+   correctamente. En esos casos, los administradores del curso tendrán
+   que entrar, saltarse el cerrojo y guardar el artículo para abrirlo
+   de nuevo.
+** Histórico (ejercicios 10 - 13)
+   El ejercicio 10 requiere visualizar el histórico de una página que
+   hayamos cambiado al menos 2 veces, usando la pestaña Histórico.
+
+   El ejercicio 11 requiere ver una versión antigua de la página,
+   usando el enlace "Navegar" de la versión deseada.
+
+   El ejercicio 12 requiere ver los cambios introducidos en la última
+   versión de la página, mediante el enlace "Diferencias".
+
+   El ejercicio 13 requiere restaurar una versión antigua, usando el
+   enlace "Volver" de la versión y guardando los cambios.
+
+   Es importante que sepan que un estudiante normal puede usar todas
+   estas opciones del histórico (incluso lo de volver a una versión
+   antigua).
+** Informes (ejercicios 14 - 17)
+   El ejercicio 14 muestra cómo ver cuáles han sido las páginas más
+   trabajadas y más consultadas del wiki. Simplemente hay que entrar en
+   el wiki y escoger la opción oportuna del desplegable.
+
+   Una vez se sepa la página más consultada del grupo, el ejercicio 15
+   requiere visitarla y comprobar su pestaña de Historial, para ver qué
+   cambios se han ido introduciendo. Es un buen momento para explicar
+   la forma en que el wiki visualiza las diferencias.
+
+   El ejercicio 16 exige añadir un enlace a una página que no exista, y
+   sin crear esa página ir al informe de "Páginas deseadas". Esta es
+   una forma fácil de ver qué páginas quedan por hacer: el profesor
+   podría plantear un esquema básico y los alumnos lo irían rellenando,
+   hasta que no quedaran páginas deseadas.
+
+   El ejercicio 17 requeriría crear una página huérfana, que requiere
+   el permiso para eliminar páginas: he creado una ya por si alguien se
+   me adelanta, pero lo ideal sería enseñar cómo se podría producir
+   una, creando una página nueva desde la principal, rellenándola y
+   luego borrando el enlace que enviaba a ella en la página
+   principal. Así serán conscientes del problema que esto supone en los
+   wikis.
+** Registro de actividad
+   Hay cosas que no se pueden ver en ejercicios, ya que requieren
+   permisos de administrador. Tengo que enseñarlas directamente yo.
+
+   La principal es la generación del histórico con todos los cambios
+   que se han hecho en un wiki, utilizando la sección "Informes" del
+   bloque de "Administración", y su posterior descarga a una hoja de
+   cálculo para medir cosas como el número de ediciones hechas por cada
+   usuario o su distribución por el tiempo. Hay que marcar "Todos los
+   días", indicar la actividad del wiki, indicar "Todos los cambios"
+   (para que no cuenten las visualizaciones). Si el campo de
+   información tiene un número en lugar de un título, es que el
+   artículo se acabó borrando y ya no existe.
+* Aspectos opcionales (por si sobra tiempo)
+** Exportación a HTML (ejercicio 18)
+   El ejercicio 18 consiste en utilizar la acción "Exportar páginas"
+   para exportar el wiki completo a un =.zip= que se pueda archivar
+   fácilmente para ser usado en ediciones posteriores.
+
+   Lo único malo es que esto no guarda el historial de los cambios,
+   sino sólo la última versión de cada cosa. Si se quiere el historial
+   completo, habría que pedirle a un técnico que hiciera una copia de
+   seguridad con todos los datos incluidos: ni siquiera el profesor de
+   un curso del CV puede sacar una copia de seguridad así.
+
+   La copia de seguridad puede incluir los ficheros binarios adjuntos
+   al wiki sin problemas.
+** Adjuntos (ejercicios 19 y 20)
+   El ejercicio 19 exige adjuntar una imagen a una página del wiki,
+   para que salga en la pestaña "Anexos". Añadirlo es sencillo: se va
+   a la pestaña "Anexos" y se sube el fichero, dando opcionalmente una
+   descripción.
+
+   El ejercicio 20 exige utilizar el anexo como una foto. Para ello
+   hay que "copiar la dirección del enlace" que tiene en la pestaña de
+   Anexos y pegarla desde el popup que saca el editor HTML al tratar
+   de añadir una imagen.
+
+   Tengo que mencionar cómo eliminar un anexo, que no es evidente. Los
+   anexos en el wiki de Moodle son páginas especiales, así que hay que
+   borrarlos mediante "Eliminar Página" de la zona de
+   administración. Para que aparezcan (son de la forma
+   =internal://...=), hay que pulsar en "Listar Todo".
+** Banderas
+   Puedo enseñar cómo activar la bandera =OFF= mediante "Fijar
+   páginas" para marcar una página como no disponible, y cómo utilizar
+   =RO= para marcar una página como de sólo lectura.
