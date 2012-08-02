@@ -11,7 +11,9 @@ can improve education and learning processes:
   [Moodle](http://www.moodle.org) 1.9 and
   [MediaWiki](http://mediawiki.org) 1.19.1. There is also a
   preliminary version of the Moodle exercise sheet in
-  [Org](http://orgmode.org/es/index.html) (`.org`) format.
+  [Org](http://orgmode.org/es/index.html) (`.org`) format, and a
+  Markdown guide with the Spanish installation instructions for
+  setting up MediaWiki as we used it.
 
   These materials are written in Spanish. They are licensed under the
   [Creative Commons 3.0 Attribution-Share Alike license](http://creativecommons.org/licenses/by-sa/3.0/)
