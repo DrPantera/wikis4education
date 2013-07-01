@@ -1,55 +1,18 @@
 #+TITLE: Guión del curso de Usos Educativos de Moodle
 NOTA: este guión sí está al día. Con él deben realizarse todos los ejercicios de Moodle.
-* Preliminares
-** ¿Cómo están hechos los wikis en Moodle?
-   El software instalado en Moodle 1.9 en la UCA está basado en
-   [[http://erfurtwiki.sourceforge.net/][ErfurtWiki]], un wiki sencillo y ligero. En Moodle 2.0 se ha
-   reescrito el módulo, pero el uso es muy similar.
-** ¿Cómo se crea un wiki?
-   Para crear un wiki, debemos seguir estos pasos:
 
-   1. Activar el modo de edición.
-   2. Ir al tema en cuestión y utilizar "Agregar actividad" > "Wiki".
-   3. Rellenar por lo menos el nombre del wiki y la
-      descripción. Algunos campos interesantes del formulario son:
-      - Tipo y modo de grupo: según su combinación, el uso final del
-        wiki cambiará mucho. Hay una página en el CV que describe las
-        combinaciones en Moodle 1.9 y Moodle 2.0+: con dejar eso como
-        referencia bastará. Las opciones por omisión nos valen: es un
-        wiki tradicional, editable y visible por todos los miembros
-        del curso por igual.
-      - Modo HTML:
-        - "No HTML" obliga a utilizar marcado wiki. El editor es un
-          campo de texto normal.
-        - "HTML seguro" permite usar marcado HTML además del de wiki,
-          pero sólo un subconjunto seguro. El editor es el mismo de
-          antes.
-        - "Sólo HTML" desactiva el marcado wiki: sólo se puede
-          utilizar HTML seguro con el editor visual de Moodle
-          ([[http://www.tinymce.com/][TinyMCE]]).
-      - Permitir archivos binarios: ¿se pueden adjuntar ficheros al
-        wiki? Eso permitirá a los alumnos añadir fotos sin tener
-        acceso a los ficheros internos del curso.
-      - Nombre de la página: nombre de la página principal del wiki,
-        si no nos vale con el nombre de la actividad.
-      - Contenido Wiki inicial (avanzado): el wiki se puede crear a
-        partir de una serie de ficheros de texto, subidos a un
-        directorio de los archivos del curso.
-      - Agrupamiento (avanzado): si se han activado los grupos,
-        permite controlar qué conjunto de grupos (agrupamiento)
-        utilizar, si se ha definido alguno.
+* Introducción
+** ¿Qué es un wiki?
+** Wiki vs CMS
+** Software libre para wikis
 
-   NOTA: la parte de calificaciones no sirve para nada. Moodle no
-   permite asignar calificaciones a los artículos de un wiki: hay que
-   establecer entradas en la sección de Calificaciones de
-   "Administración" manualmente.
+* Wikis en Moodle
+** Tipos de wikis en Moodle
+** Edición individual
+*** Ejercicios
+** Edición colaborativa
+*** Ejercicios
 
-   Enseñaré la interfaz para crear un wiki, pero usaremos el "Wiki de
-   prueba" que ya está en el Campus Virtual. Hay que mencionar que
-   normalmente los wikis son proyectos a nivel de asignatura completa,
-   por lo que suelen ir en el tema 0, por así decirlo, más que en un
-   tema concreto.
-* Uso general
 ** Creación de contenido (ejercicios 1 - 8)
    Hay que enseñar a entrar en el wiki y ver qué particularidades hay:
    por un lado, hay una caja de búsqueda y un desplegable que permite
@@ -200,3 +163,19 @@ NOTA: este guión sí está al día. Con él deben realizarse todos los ejercici
    Puedo enseñar cómo activar la bandera =OFF= mediante "Fijar
    páginas" para marcar una página como no disponible, y cómo utilizar
    =RO= para marcar una página como de sólo lectura.
+
+* Evaluación del trabajo en wiki
+** Competencias evaluables
+** Métodos de evaluación
+*** Ejercicios: evaluar los wiki de los temas anteriores
+** Críticas y revisiones
+*** Ejercicios con roles
+
+* Aplicaciones a gestión e investigación
+** Ejercicios
+
+* Wikipedia y otros wikis
+** Conceptos
+** Vistazo general
+** Ejercicios
+
