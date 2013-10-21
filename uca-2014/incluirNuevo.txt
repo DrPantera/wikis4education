@@ -1,2 +1,12 @@
-En la wiki aparece Ajustes > Administración wikis > Registros con información interesante (aparece como un bloque más).
 
+En la wiki (parece que con la nueva versión de Moodle) aparece Ajustes > Administración wikis > Registros con información interesante (aparece como un bloque más).
+
+
+=================
+
+Se puede poner un juego de roles con un a lumno copión, puede ser de varios tipos:
+* Copia tal cual
+* Copia y luego intenta camuflarlo (completando el texto, o reescribiendo parte del texto copiado)
+* Copia y elimina de la página donde lo copió
+
+Puede existir el rol de "alumno tiquismiquis" que, o bien puede ser un "alumno bueno" que contribuye, o bien un alumno que no ha contribuido nada y quiere aparecer "en el último momento". Este alumno corrige todo aunque esté bien, reescribe frases, cambia la puntuación, etc. También deja comentarios en el apartado de "Discusión" sobre los cambios realizados.
