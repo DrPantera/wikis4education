@@ -1,10 +1,13 @@
 
 En la wiki (parece que con la nueva versión de Moodle) aparece Ajustes > Administración wikis > Registros con información interesante (aparece como un bloque más).
 
+=================
+
+apuntar nueva posibilidad de pagina de wiki con ideas a partir de lo comentado por Andrea
 
 =================
 
-Se puede poner un juego de roles con un a lumno copión, puede ser de varios tipos:
+Se puede poner un juego de roles con un alumno copión, puede ser de varios tipos:
 * Copia tal cual
 * Copia y luego intenta camuflarlo (completando el texto, o reescribiendo parte del texto copiado)
 * Copia y elimina de la página donde lo copió
