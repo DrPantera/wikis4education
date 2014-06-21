@@ -27,16 +27,16 @@ apropiado. Son éstas:
 - `editarPagina` es la función principal: añade una edición a una página, creándola
   si no existía de antes. Tiene tres posibles usos (el más normal es el segundo):
 
-  - `editarPagina titulo id_usuario < contenido` añade una edición con la fecha y hora
+  - `editarPagina id_usuario titulo < contenido` añade una edición con la fecha y hora
     actuales y el contenido leído por stdin a la página con título `titulo` de parte
     del usuario con ID `id_usuario`.
 
-  - `editarPagina titulo id_usuario fecha < contenido` es como el anterior, pero permite
+  - `editarPagina id_usuario titulo fecha < contenido` es como el anterior, pero permite
     personalizar la fecha. La sintaxis de las fechas es la de la sección "Date input
     formats" del manual Info de date(1). Por ejemplo, valen fechas como "now",
     "yesterday", "last Monday", "last Wed -1 week" o "2014-06-16T23:45:03+0200".
 
-  - `editarPagina titulo id_usuario fecha contenido` permite poner el contenido como
+  - `editarPagina id_usuario titulo fecha contenido` permite poner el contenido como
     un argumento en vez de por stdin.
 
 Guión para volcar wikis
