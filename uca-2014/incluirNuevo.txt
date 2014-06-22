@@ -3,10 +3,6 @@ En la wiki (parece que con la nueva versión de Moodle) aparece Ajustes > Admini
 
 =================
 
-apuntar nueva posibilidad de pagina de wiki con ideas a partir de lo comentado por Andrea
-
-=================
-
 Se puede poner un juego de roles con un alumno copión, puede ser de varios tipos:
 * Copia tal cual
 * Copia y luego intenta camuflarlo (completando el texto, o reescribiendo parte del texto copiado)
