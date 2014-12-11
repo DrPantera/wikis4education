@@ -1,0 +1,5 @@
+Para los ejercicios en grupos de tres miembros es necesario crear en Moodle un wiki tipo "Colaborativo" indicando la opción "Sin Grupos".
+
+Una vez esté creado el profesor puede añadir a la página principal una entrada por cada grupo (igual que en los wikis por parejas). Esto es especialmente recomendble en los primeros ejercicios que hacen los alumnos en wikis colaborativos. Dependiendo del proyecto esta página puede ser propia (por ejemplo, para el ejercicio de los puentes se puede tener "Golden Gate", "Puente de Carranza", etc) o simplemente grupoX (como para el caso de la estadística).
+
+Una vez empiecen el proyecto es normal que los alumnos se sientan inseguros ante la edición del wiki sin indicaciones concretas. Llegado este punto es importante recordarles que (a) En un ejercicio que se hace con Word u OpenOffice no se le suelen dar pautas concretas (b) equivocándose aprenderán (c) lo que no les convenca pueden corregirlo y (d) no existe una única solución válida a los ejercicios.

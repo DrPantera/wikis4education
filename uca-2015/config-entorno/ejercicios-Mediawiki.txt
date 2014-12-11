@@ -1,0 +1,19 @@
+Para los ejercicios en pareja es necesario crear un wiki MediaWiki con el editor  tipo "Colaborativo" indicando la opción "Sin Grupos".
+
+Una vez esté creado el profesor deberá crear en la página principal un título "Pueblos de la provincia de Cádiz" y una lista de enlaces con el nombre de pueblos de la provincia. Por ejemplo:
+
+* [[Grazalema]] (grupo 1)
+* [[Ubrique]] (grupo 2)
+* [[Chiclana de la Frontera]] (grupo 3)
+* [[Castellar]] (grupo 4)
+* [[Tarifa]] (grupo 5)
+* [[Algodonales]] (grupo 6)
+* [[Arcos de la Frontera]] (grupo 7)
+* [[Setenil de las Bodegas]] (grupo 8)
+* [[Alcalá de los Gazules]] (grupo 9)
+* [[Medina Sidonia]] (grupo 10)
+* [[Vejer]] (grupo 11)
+* [[Conil]] (grupo 12)
+* [[Rota]] (grupo 13)
+
+Por último se le indicará a cada pareja de alumnos (preferiblemente que estén sentados próximos) que editen su página.

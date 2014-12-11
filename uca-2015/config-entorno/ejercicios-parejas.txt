@@ -1,0 +1,19 @@
+Para los ejercicios en pareja es necesario crear en Moodle un wiki tipo "Colaborativo" indicando la opción "Sin Grupos".
+
+Una vez esté creado el profesor deberá añadir a la página inicial un título "Cádiz de 1812 con humor" y una lista de enlaces con el siguiente contenido:
+
+* [[Nivel de vida]] (grupo 1)
+* [[Sitio de Cádiz y San Fernando]] (grupo 2)
+* [[Apoyo de las colonias]] (grupo 3)
+* [[Comercio con Iberoamérica]] (grupo 4)
+* [[Cultura y ocio]] (grupo 5)
+* [[Ejercicio físico]] (grupo 6)
+* [[Cotilleos]] (grupo 7)
+* [[Ciencia]] (grupo 8)
+* [[Corrupción en la política]] (grupo 9)
+* [[Educación]] (grupo 10)
+* [[Torres]] (grupo 11)
+* [[Indumentarias]] (grupo 12)
+* [[Prensa]] (grupo 13)
+
+Por último se le indicará a cada pareja de alumnos (preferiblemente que estén sentados próximos) que editen su página. En los ejercicios hasta el 12 sólo se trabajan contenidos sin interactiar entre grupos, lo que hace que los alumnos tengan la sensación de seguir estando en un wiki individual pero trabajando por parejas. Pero a partir del ejercicio 13 empiezan a interactuar, y se dan cuenta que el wiki es común para todos, y no existe control sobre quién edita qué.
