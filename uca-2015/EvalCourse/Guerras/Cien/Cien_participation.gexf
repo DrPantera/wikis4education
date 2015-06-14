@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz" version="1.1">
+<graph defaultedgetype="undirected" idtype="string" type="static">
+<nodes>
+<node id="1" label="anonfirstname1 anonlastname1"/>
+<node id="2" label="anonfirstname2 anonlastname2"/>
+<node id="3" label="anonfirstname3 anonlastname3"/>
+</nodes>
+<edges>
+<edge id="1" source="1" target="Cien_participation" weight=" 8"/>
+<edge id="2" source="2" target="Cien_participation" weight=" 6"/>
+<edge id="3" source="3" target="Cien_participation" weight=" 6"/>
+</edges>
+</graph>
+</gexf>
+
