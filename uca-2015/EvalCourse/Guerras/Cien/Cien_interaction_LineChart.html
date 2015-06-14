@@ -1,0 +1,54 @@
+ <html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = google.visualization.arrayToDataTable([
+['week', 'anonfirstname1 anonlastname1', 'anonfirstname2 anonlastname2', 'anonfirstname3 anonlastname3'],
+[38,  1170, 0, 0],
+[39, 0,  1998, 0],
+[40, 0, 0,  162],
+[41, 0,  431,  2582],
+[42,  2255, 0, 0],
+[43, 0,  1964,  238],
+[44,  2771, 0, 0],
+[45,  3287,  1955, 0],
+[46, 0, 0,  375],
+[47, 0,  199,  8],
+[48,  4349, 0, 0],
+[49, 0, 0,  259],
+[50,  399,  3949, 0],
+[51, 0, 0, 0],
+[52, 0, 0, 0]
+]); 
+
+        // Set chart options
+        var options = {'title':'Cien_interaction  (InteractionWiki)',
+                       'width':800,
+                       'height':600};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"></div>
+  </body>
+</html>
